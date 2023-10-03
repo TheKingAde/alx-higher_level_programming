@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ -z "$PYFILE" ]
+then
+    echo "Environment variable PYFILE is not set."
+    exit 1
+fi
+
+# Compile the Python file
+python3 -m py_compile "$PYFILE"
+
+# Get the base name of the Python file without extension
+base_pyfile=$(basename "$PYFILE" .py)
+
+# Rename the output file to $PYFILEc
+mv "${base_pyfile}.pyc" "${PYFILE}c"
+
+echo "Compiling $PYFILE ..."
