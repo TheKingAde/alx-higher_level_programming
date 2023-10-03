@@ -10,7 +10,10 @@ def check_lastdigit(number):
     elif lD == 0:
         print(f"Last digit of {number} is {lD} and is 0")
     elif lD < 6 and lD != 0:
-        print(f"Last digit of {number} is {lD} and is less than 6 and not 0")
+        if number < 0:
+            print(f"Last digit of {number} is -{lD} and is less than 6 and not 0")
+        else:
+            print(f"Last digit of {number} is {lD} and is less than 6 and not 0")
     else:
         print("not specified")
 
