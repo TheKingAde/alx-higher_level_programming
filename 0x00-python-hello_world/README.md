@@ -15,3 +15,5 @@ This is the read me for the python 0x00-hello world alx higher level programming
 			Middle word: olberto
 8-concat_edges.py = prints object-oriented programming with Python
 9-easter_egg.py = prints “The Zen of Python”, by TimPeters, followed by a new line.
+100-write.py = prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
+
