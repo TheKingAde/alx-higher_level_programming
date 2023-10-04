@@ -3,10 +3,10 @@ def print_tebahpla():
     alphabet = ""
     for i in range(122, 96, -1):
         if i % 2 == 0:
-            alphabet += chr(i).lower()
+            alphabet += "{:s}".format(chr(i).lower())
         else:
-            alphabet += chr(i).upper()
-    print(f"{alphabet}", end="")
+            alphabet += "{:s}".format(chr(i).upper())
+    print("{:s}".format(alphabet), end="")
 
 
 print_tebahpla()
