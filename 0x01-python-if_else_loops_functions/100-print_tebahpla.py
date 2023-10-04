@@ -6,7 +6,7 @@ def print_tebahpla():
             alphabet += chr(i).lower()
         else:
             alphabet += chr(i).upper()
-    print(alphabet, end="")
+    print(f"{alphabet}", end="")
 
 
 print_tebahpla()
