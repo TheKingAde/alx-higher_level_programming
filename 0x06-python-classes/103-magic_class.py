@@ -5,8 +5,6 @@ calculate the area and circumference of a circle
 '''
 
 
-import math
-
 class MagicClass:
     def __init__(self, radius=0):
         """
