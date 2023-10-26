@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-'''class square'''
+'''class square that does nothing (for now?)'''
 
 
 class square:
-    '''square'''
+    '''class square that does nothing'''
     pass
