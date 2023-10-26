@@ -3,6 +3,7 @@
 This is a module that defines a square class.
 """
 
+
 class Square:
     """
     This is a class that represents a square.
@@ -32,4 +33,3 @@ class Square:
             int: The area of the square.
         """
         return self.__size ** 2
-
