@@ -19,7 +19,7 @@ class Square:
 
         Args:
             size (int, optional): The size of the square. Default is 0.
-            position (tuple, optional): The position of the square. Default is (0, 0).
+            position (tuple, optional): Square position. Default = (0, 0).
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
