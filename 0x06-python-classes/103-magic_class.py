@@ -1,21 +1,23 @@
 #!/usr/bin/python3
 import math
-'''
-calculate the area and circumference of a circle
-'''
 
+'''
+This script calculates the area and circumference of a circle using a class called MagicClass.
+'''
 
 class MagicClass:
-    '''MagicClass for a  Python bytecode'''
+    '''
+    MagicClass is a class that represents a circle. It has methods to calculate the area and circumference of the circle.
+    '''
     def __init__(self, radius=0):
         """
-        Initialize a MagicClass instance with a given radius.
+        This method initializes a MagicClass instance with a given radius.
 
         Args:
-            radius (int or float, optional): The radius of the circle.
+            radius (int or float, optional): The radius of the circle. Defaults to 0.
 
         Raises:
-            TypeError: If the provided radius is not a number.
+            TypeError: If the provided radius is not a number (neither int nor float).
         """
         if type(radius) is not int and type(radius) is not float:
             raise TypeError('radius must be a number')
@@ -23,7 +25,7 @@ class MagicClass:
 
     def area(self):
         """
-        Calculate and return the area of the circle.
+        This method calculates and returns the area of the circle.
 
         Returns:
             float: The area of the circle.
@@ -32,7 +34,7 @@ class MagicClass:
 
     def circumference(self):
         """
-        Calculate and return the circumference of the circle.
+        This method calculates and returns the circumference of the circle.
 
         Returns:
             float: The circumference of the circle.
