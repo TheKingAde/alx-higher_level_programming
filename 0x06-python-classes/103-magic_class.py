@@ -6,6 +6,7 @@ calculate the area and circumference of a circle
 
 
 class MagicClass:
+    '''MagicClass for a  Python bytecode'''
     def __init__(self, radius=0):
         """
         Initialize a MagicClass instance with a given radius.
