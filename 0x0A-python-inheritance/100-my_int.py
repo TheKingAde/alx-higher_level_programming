@@ -4,7 +4,7 @@
 
 class MyInt(int):
     """
-    A class that inherits from int and inverts the behavior of the equality (==) and
+    A class that inherits from int
     inequality (!=) operators.
 
     Attributes:
@@ -15,10 +15,10 @@ class MyInt(int):
             Initializes a new MyInt instance with the specified integer value.
 
         __eq__(self, other):
-            Overrides the equality operator (==) to return the inverted result of the comparison.
+            Overrides the equality operator (==) to return the inverted result
 
         __ne__(self, other):
-            Overrides the inequality operator (!=) to return the inverted result of the comparison.
+            Overrides the inequality operator (!=) to return the inverted result
     """
 
     def __init__(self, value):
@@ -32,7 +32,7 @@ class MyInt(int):
 
     def __eq__(self, other):
         """
-        Overrides the equality operator (==) to return the inverted result of the comparison.
+        Overrides the equality operator (==) to return the inverted result
 
         Args:
             other: The value or object to compare with the MyInt instance.
@@ -44,7 +44,7 @@ class MyInt(int):
 
     def __ne__(self, other):
         """
-        Overrides the inequality operator (!=) to return the inverted result of the comparison.
+        Overrides the inequality operator (!=) to return the inverted result
 
         Args:
             other: The value or object to compare with the MyInt instance.
