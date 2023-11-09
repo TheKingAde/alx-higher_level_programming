@@ -18,7 +18,7 @@ class MyInt(int):
             Overrides the equality operator (==) to return the inverted result
 
         __ne__(self, other):
-            Overrides the inequality operator (!=) to return the inverted result
+            Overrides the inequality operator (!=).returns the inverted result
     """
 
     def __init__(self, value):
