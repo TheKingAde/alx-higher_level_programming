@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Module sends a request to the URL and displays the value"""
+
 import sys
 import urllib.request
 
